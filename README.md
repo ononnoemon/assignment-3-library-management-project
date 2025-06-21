@@ -1,4 +1,4 @@
-# 📚 Library Management System API
+# Library Management System API
 
 A backend API for managing books and borrow records in a library. Built with **Express.js**, **TypeScript**, and **MongoDB (Mongoose)**.
 
