@@ -61,7 +61,7 @@ src/
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 ### 1. Create a Book
 
