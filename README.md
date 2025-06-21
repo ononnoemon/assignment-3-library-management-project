@@ -39,11 +39,9 @@ cp .env.example .env
 # Add your MongoDB URI and JWT_SECRET
 
 # Run the server in development mode
-npm run dev
+tsc
+node dist/server.js
 
-# Build and start production
-npm run build
-npm run start
 ```
 
 ---
@@ -51,14 +49,14 @@ npm run start
 ##  Folder Structure
 
 ```
+dist                 # typescript compiled output files 
 src/
-  app.ts             # Express app initialization
-  config/            # MongoDB config
+  app.ts             # Express app initialization and root file
+  server.ts          # connect mongoose,root file and app listen with port
   modules/
     book/            # Book model, controller, routes
     borrow/          # Borrow model, controller, routes
-  middlewares/       # Global error handler, not found handler
-  utils/             # Helper functions
+
 ```
 
 ---
