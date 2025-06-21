@@ -19,7 +19,8 @@ const borrowHandler = express_1.default.Router();
 borrowHandler.post('/borrow', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { book, quantity, dueDate } = req.body;
-        const borrowRecord = yield borrow_model_1.Borrow.create({ book, quantity, dueDate });
+        const borrowRecord = new borrow_model_1.Borrow({ book, quantity, dueDate });
+        yield borrowRecord.save();
         res.status(201).json({
             success: true,
             message: 'Book borrowed successfully',

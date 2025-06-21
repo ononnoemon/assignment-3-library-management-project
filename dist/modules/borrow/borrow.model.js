@@ -34,7 +34,7 @@ borrowSchema.statics.adjustBookAvailability = function (bookId, quantity) {
         yield book.save();
     });
 };
-//Pre-save middleware: adjust book before saving borrow record
+//Pre-save middleware for adjust book before saving borrow record
 borrowSchema.pre('save', function (next) {
     return __awaiter(this, void 0, void 0, function* () {
         const borrow = this;
@@ -42,7 +42,7 @@ borrowSchema.pre('save', function (next) {
         next();
     });
 });
-// Post-save middleware: logging
+// Post-save middleware for logging
 borrowSchema.post('save', function (doc) {
     console.log(`Borrow record saved for Book ID: ${doc.book}`);
 });
