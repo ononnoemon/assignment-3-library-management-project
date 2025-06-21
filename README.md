@@ -6,13 +6,13 @@ A backend API for managing books and borrow records in a library. Built with **E
 
 ##  Features
 
-* ✅ Create, read, update, and delete books
-* ✅ Borrow books with business logic enforcement
-* ✅ Auto update availability based on stock
-* ✅ Aggregation pipeline summary of borrowed books
-* ✅ Mongoose middleware (pre/post)
-* ✅ Static method for business logic
-* ✅ Filtering, sorting, and pagination on book list
+*  Create, read, update, and delete books
+*  Borrow books with business logic enforcement
+*  Auto update availability based on stock
+*  Aggregation pipeline summary of borrowed books
+*  Mongoose middleware (pre/post)
+*  Static method for business logic
+*  Filtering, sorting, and pagination on book list
 
 ---
 
