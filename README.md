@@ -4,7 +4,7 @@ A backend API for managing books and borrow records in a library. Built with **E
 
 ---
 
-## 🚀 Features
+##  Features
 
 * ✅ Create, read, update, and delete books
 * ✅ Borrow books with business logic enforcement
@@ -16,7 +16,7 @@ A backend API for managing books and borrow records in a library. Built with **E
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 * Express.js
 * TypeScript
@@ -24,7 +24,7 @@ A backend API for managing books and borrow records in a library. Built with **E
 
 ---
 
-## ⚙️ Project Setup
+##  Project Setup
 
 ```bash
 # Clone the repository
@@ -48,7 +48,7 @@ npm run start
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 src/
@@ -145,7 +145,7 @@ Response:
 
 ---
 
-## ⚠️ Error Format
+##  Error Format
 
 ```json
 {
@@ -165,26 +165,18 @@ Response:
 
 ---
 
-## 🧪 Testing (Optional)
+##  Testing (Optional)
 
 Use Postman or Thunder Client to test the API.
 
 ---
 
-## 🧠 Future Improvements
+##  Future I will add here
 
 * Add user login & authentication
 * Book return & late fee tracking
 * Advanced analytics on borrow trends
 
----
 
-## 📄 License
 
-MIT
 
----
-
-## ✍️ Author
-
-[Your Name](https://github.com/your-username)
